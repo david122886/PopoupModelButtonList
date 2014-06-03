@@ -19,6 +19,10 @@
 		66909F50193D5D5900AE26A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66909F38193D5D5900AE26A7 /* UIKit.framework */; };
 		66909F58193D5D5900AE26A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66909F56193D5D5900AE26A7 /* InfoPlist.strings */; };
 		66909F5A193D5D5900AE26A7 /* PopModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66909F59193D5D5900AE26A7 /* PopModelTests.m */; };
+		66909F66193D5D7E00AE26A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66909F64193D5D7E00AE26A7 /* ViewController.m */; };
+		66909F67193D5D7E00AE26A7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66909F65193D5D7E00AE26A7 /* ViewController.xib */; };
+		66909F73193D669800AE26A7 /* PopupModelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 66909F72193D669800AE26A7 /* PopupModelButton.m */; };
+		66909F75193D66B500AE26A7 /* PopupModelButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66909F74193D66B400AE26A7 /* PopupModelButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		66909F55193D5D5900AE26A7 /* PopModelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopModelTests-Info.plist"; sourceTree = "<group>"; };
 		66909F57193D5D5900AE26A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66909F59193D5D5900AE26A7 /* PopModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopModelTests.m; sourceTree = "<group>"; };
+		66909F63193D5D7E00AE26A7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66909F64193D5D7E00AE26A7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66909F65193D5D7E00AE26A7 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		66909F71193D669800AE26A7 /* PopupModelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupModelButton.h; sourceTree = "<group>"; };
+		66909F72193D669800AE26A7 /* PopupModelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupModelButton.m; sourceTree = "<group>"; };
+		66909F74193D66B400AE26A7 /* PopupModelButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupModelButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +117,14 @@
 		66909F3A193D5D5900AE26A7 /* PopModel */ = {
 			isa = PBXGroup;
 			children = (
+				66909F6D193D659000AE26A7 /* PopupModelButton */,
 				66909F43193D5D5900AE26A7 /* AppDelegate.h */,
 				66909F44193D5D5900AE26A7 /* AppDelegate.m */,
 				66909F46193D5D5900AE26A7 /* Images.xcassets */,
 				66909F3B193D5D5900AE26A7 /* Supporting Files */,
+				66909F63193D5D7E00AE26A7 /* ViewController.h */,
+				66909F64193D5D7E00AE26A7 /* ViewController.m */,
+				66909F65193D5D7E00AE26A7 /* ViewController.xib */,
 			);
 			path = PopModel;
 			sourceTree = "<group>";
@@ -142,6 +156,16 @@
 				66909F56193D5D5900AE26A7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66909F6D193D659000AE26A7 /* PopupModelButton */ = {
+			isa = PBXGroup;
+			children = (
+				66909F71193D669800AE26A7 /* PopupModelButton.h */,
+				66909F72193D669800AE26A7 /* PopupModelButton.m */,
+				66909F74193D66B400AE26A7 /* PopupModelButton.xib */,
+			);
+			path = PopupModelButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66909F3F193D5D5900AE26A7 /* InfoPlist.strings in Resources */,
+				66909F75193D66B500AE26A7 /* PopupModelButton.xib in Resources */,
+				66909F67193D5D7E00AE26A7 /* ViewController.xib in Resources */,
 				66909F47193D5D5900AE26A7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66909F73193D669800AE26A7 /* PopupModelButton.m in Sources */,
+				66909F66193D5D7E00AE26A7 /* ViewController.m in Sources */,
 				66909F45193D5D5900AE26A7 /* AppDelegate.m in Sources */,
 				66909F41193D5D5900AE26A7 /* main.m in Sources */,
 			);
@@ -362,6 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopModel/PopModel-Prefix.pch";
 				INFOPLIST_FILE = "PopModel/PopModel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopModel/PopModel-Prefix.pch";
 				INFOPLIST_FILE = "PopModel/PopModel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -439,6 +469,7 @@
 				66909F5F193D5D5900AE26A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66909F60193D5D5900AE26A7 /* Build configuration list for PBXNativeTarget "PopModelTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +478,7 @@
 				66909F62193D5D5900AE26A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
